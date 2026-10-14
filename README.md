@@ -18,6 +18,15 @@ identity switching for local testing only; it is not an authentication system.
 - SQLite database rules enforce provider overlap protection and serialise writes
   with immediate transactions.
 
+See [PROJECT_WORKFLOW.md](./PROJECT_WORKFLOW.md) for the end-to-end patient and
+provider workflows, API responsibilities, and a wireframe-style application
+diagram.
+
+See [USER_PERSPECTIVE.md](./USER_PERSPECTIVE.md) for a screenshot-driven guide
+to patient/provider workflows, including requests, confirmations,
+rescheduling, history, cancellation, empty state, overlap rejection, and stale
+updates.
+
 ## Local setup
 
 From the project root, create the Python environment and start the API:
